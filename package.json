@@ -1,6 +1,6 @@
 {
   "name": "@kaji0214/npm-private-registry",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utility package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
