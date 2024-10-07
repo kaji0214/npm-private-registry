@@ -22,9 +22,11 @@ jobs:
           node-version-file: '.node-version'
           registry-url: https://npm.pkg.github.com
           scope: '@kajitaku'
-
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 9.12.1
       - name: Install
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm build
